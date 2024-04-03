@@ -1,0 +1,24 @@
+.missions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .mission {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .mission img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .mission-details {
+    margin-top: 10px;
+  }
+  
