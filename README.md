@@ -28,8 +28,8 @@ Run the command below command to start the project in development mode:
 ng serve --open OR (npx ng serve --open)
 ```
 
-```screenshots
-![image](./missionlist.png.png?raw=true "Home Page")
-![image](./missiondetails.png.png?raw=true "Details Page")
-![image](./missiondefilter.png.png?raw=true "Filter Page")
-```
+# screenshots
+
+![Mission Details](images/missiondetails.png "Mission Details")
+![Mission Filter](images/missionfilter.png "Mission Filter")
+![Mission List](images/missionlist.png "Mission List")
