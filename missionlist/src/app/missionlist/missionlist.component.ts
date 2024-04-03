@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { SpacexService } from '../spacex.service'; // Adjust the path as needed
+import { Router } from '@angular/router';
+import { Mission } from '../models/missions';
+import { SpacexapiService } from '../network/spacexapi.service';
 
 @Component({
   selector: 'app-missionlist',
@@ -7,22 +9,16 @@ import { SpacexService } from '../spacex.service'; // Adjust the path as needed
   styleUrls: ['./missionlist.component.css']
 })
 export class MissionlistComponent implements OnInit {
-  missions: any[] = [];
+  
+  constructor(private spacexapiService: SpacexapiService, private router: Router) { }
 
-  constructor(private SpacexService: SpacexService) { }
+  listMission: Mission[] = [];
 
   ngOnInit(): void {
-    this.getLaunches();
+    this.spacexapiService.getAllList().subscribe( (data: Mission[]): void => {
+      this.listMission = data
+      
+    })
   }
 
-  getLaunches(): void {
-    this.SpacexService.getLaunches().subscribe(
-      (data) => {
-        this.missions = data;
-      },
-      (error) => {
-        console.error('There was an error!', error);
-      }
-    );
-  }
 }

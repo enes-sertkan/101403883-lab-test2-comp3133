@@ -1,27 +1,29 @@
-# Missionlist
+# 101403883-lab-test2-comp3133
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+## Requirement
 
-## Development server
+In order to run the project, your computer needs to have these packages and environment installed and configured:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [NodeJS](https://choosealicense.com/licenses/mit/) (version 14.5.3 and up)
+- npm (version 6.14.9)
+- [git](https://git-scm.com/downloads)
 
-## Code scaffolding
+## How to set up the application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+First, you need to clone the project to your local machine
 
-## Build
+```bash
+git clone https://github.com/enes-sertkan/101403883-lab-test2-comp3133.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run the following commands to install all dependencies :
 
-## Running unit tests
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run the command below command to start the project in development mode:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve --open OR (npx ng serve --open)
+```

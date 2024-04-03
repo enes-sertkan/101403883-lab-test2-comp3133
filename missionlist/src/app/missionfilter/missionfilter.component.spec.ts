@@ -8,10 +8,10 @@ describe('MissionfilterComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MissionfilterComponent]
+      declarations: [ MissionfilterComponent ]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(MissionfilterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
