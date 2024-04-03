@@ -27,3 +27,9 @@ Run the command below command to start the project in development mode:
 ```bash
 ng serve --open OR (npx ng serve --open)
 ```
+
+```screenshots
+![image](./missionlist.png.png?raw=true "Home Page")
+![image](./missiondetails.png.png?raw=true "Details Page")
+![image](./missiondefilter.png.png?raw=true "Filter Page")
+```
