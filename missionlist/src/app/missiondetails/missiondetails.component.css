@@ -39,26 +39,26 @@ mat-card {
 
 .mission_info {
     margin-top: 2rem;
-    flex-grow: 1; /* Allows this section to fill available space */
+    flex-grow: 1;
 }
 
 .under_content {
-    padding: 1rem; /* Uniform padding */
-    background-color: #fafafa; /* Slightly off-white to distinguish from the rest of the card */
-    border-top: 1px solid #eee; /* Subtle separation from content above */
+    padding: 1rem; 
+    background-color: #fafafa; 
+    border-top: 1px solid #eee;
 }
 
 .under_content h1, .above_content h2 {
     color: #DC143C;
-    margin: 0.5rem 0; /* Reduces vertical space for a tighter look */
+    margin: 0.5rem 0; 
 }
 
 .launch_detail {
     margin-bottom: 1rem;
-    line-height: 1.5; /* Improves readability of these elements */
+    line-height: 1.5; 
 }
 
 mat-icon {
-    vertical-align: middle; /* Aligns icons with adjacent text */
-    color: #666; /* Subdued color for icons */
+    vertical-align: middle;
+    color: #666; 
 }
