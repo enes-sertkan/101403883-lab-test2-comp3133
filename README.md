@@ -30,6 +30,6 @@ ng serve --open OR (npx ng serve --open)
 
 # screenshots
 
-![Mission Details](images/missiondetails.png "Mission Details")
-![Mission Filter](images/missionfilter.png "Mission Filter")
-![Mission List](images/missionlist.png "Mission List")
+![Mission Details](/missiondetails.png "Mission Details")
+![Mission Filter](/missionfilter.png "Mission Filter")
+![Mission List](/missionlist.png "Mission List")
